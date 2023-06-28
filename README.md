@@ -6,6 +6,8 @@
 
  It comes as a challenge from the **Slightly Techie** community.
 
+You can find the HuggingFace deployed app on [here](https://huggingface.co/spaces/KwameOO/Iris_Specie_Prediction).
+
 ## Process Description
 
 The process begins with exporting the necessary items from the notebook, building an interface that works correctly, importing the necessary items for modelling, and then writing the code to process inputs. The process can be summarized as:
