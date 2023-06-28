@@ -17,7 +17,7 @@ expected_inputs = ["sepal_length", "sepal_width", "petal_length", "petal_width"]
 
 # ----- Helper Functions
 # Function to load ML toolkit
-def load_ml_toolkit(file_path=r"src\Iris_App_toolkit"):
+def load_ml_toolkit(file_path= r"src\Iris_App_toolkit"):
     """
     This function loads the ML items into this file. It takes the path to the ML items to load it.
 
@@ -34,7 +34,7 @@ def load_ml_toolkit(file_path=r"src\Iris_App_toolkit"):
 
 
 # Importing the toolkit
-loaded_toolkit = load_ml_toolkit(r"src\Iris_App_toolkit")
+loaded_toolkit = load_ml_toolkit()
 scaler = loaded_toolkit["scaler"]
 
 # Import the model
